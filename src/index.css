@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .dashboard-card {
+    @apply bg-white p-6 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg;
+  }
+}
